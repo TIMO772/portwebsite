@@ -1,0 +1,33 @@
+
+
+.Home {
+    display: flex;
+    background: #00061f;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 5, 26, 0.3);
+    color: #fff;
+    padding: 0.7rem  4rem;
+    
+    
+}
+
+header .logo {
+    font-size: 3rem;
+    font-weight:900;
+}
+header nav a {
+    font-size: 1.8rem;
+    margin-left: 7px;
+    padding: 10px 10px;
+    font-weight: 500;
+
+}
